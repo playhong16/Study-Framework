@@ -10,13 +10,30 @@
 		05DDA5C22B3863E10052B730 /* BFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DDA5C12B3863E10052B730 /* BFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05DDA5D22B3864570052B730 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA5D12B3864570052B730 /* HomeView.swift */; };
 		05DDA5D82B3865A60052B730 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA5D72B3865A60052B730 /* HomeViewController.swift */; };
+		05DDA6102B3C8EA10052B730 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DDA60F2B3C8EA10052B730 /* Shared.framework */; };
+		05DDA6112B3C8EA10052B730 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05DDA60F2B3C8EA10052B730 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05DDA6122B3C8EA10052B730 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05DDA6112B3C8EA10052B730 /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		05DDA5BE2B3863E10052B730 /* BFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DDA5C12B3863E10052B730 /* BFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFramework.h; sourceTree = "<group>"; };
 		05DDA5D12B3864570052B730 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		05DDA5D72B3865A60052B730 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		05DDA60F2B3C8EA10052B730 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05DDA6102B3C8EA10052B730 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +53,7 @@
 			children = (
 				05DDA5C02B3863E10052B730 /* BFramework */,
 				05DDA5BF2B3863E10052B730 /* Products */,
+				05DDA60E2B3C8EA10052B730 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +73,14 @@
 				05DDA5D72B3865A60052B730 /* HomeViewController.swift */,
 			);
 			path = BFramework;
+			sourceTree = "<group>";
+		};
+		05DDA60E2B3C8EA10052B730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05DDA60F2B3C8EA10052B730 /* Shared.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +105,7 @@
 				05DDA5BA2B3863E10052B730 /* Sources */,
 				05DDA5BB2B3863E10052B730 /* Frameworks */,
 				05DDA5BC2B3863E10052B730 /* Resources */,
+				05DDA6122B3C8EA10052B730 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

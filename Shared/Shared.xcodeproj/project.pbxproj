@@ -7,128 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05DDA5A42B3855290052B730 /* AFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DDA5A32B3855290052B730 /* AFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05DDA5AB2B38557F0052B730 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA5AA2B38557F0052B730 /* SignUpView.swift */; };
-		05DDA6132B3C8FE10052B730 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DDA60A2B3C8E970052B730 /* Shared.framework */; };
-		05DDA6142B3C8FE10052B730 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05DDA60A2B3C8E970052B730 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05DDA5FA2B3C8DDA0052B730 /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DDA5F92B3C8DDA0052B730 /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05DDA6012B3C8DEB0052B730 /* SampleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA6002B3C8DEB0052B730 /* SampleCode.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		05DDA6152B3C8FE10052B730 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				05DDA6142B3C8FE10052B730 /* Shared.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		05DDA5A02B3855290052B730 /* AFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		05DDA5A32B3855290052B730 /* AFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFramework.h; sourceTree = "<group>"; };
-		05DDA5AA2B38557F0052B730 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		05DDA60A2B3C8E970052B730 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DDA5F62B3C8DDA0052B730 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DDA5F92B3C8DDA0052B730 /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
+		05DDA6002B3C8DEB0052B730 /* SampleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05DDA59D2B3855290052B730 /* Frameworks */ = {
+		05DDA5F32B3C8DDA0052B730 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DDA6132B3C8FE10052B730 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05DDA5962B3855280052B730 = {
+		05DDA5EC2B3C8DDA0052B730 = {
 			isa = PBXGroup;
 			children = (
-				05DDA5A22B3855290052B730 /* AFramework */,
-				05DDA5A12B3855290052B730 /* Products */,
-				05DDA6092B3C8E970052B730 /* Frameworks */,
+				05DDA5F82B3C8DDA0052B730 /* Shared */,
+				05DDA5F72B3C8DDA0052B730 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		05DDA5A12B3855290052B730 /* Products */ = {
+		05DDA5F72B3C8DDA0052B730 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05DDA5A02B3855290052B730 /* AFramework.framework */,
+				05DDA5F62B3C8DDA0052B730 /* Shared.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05DDA5A22B3855290052B730 /* AFramework */ = {
+		05DDA5F82B3C8DDA0052B730 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				05DDA5A32B3855290052B730 /* AFramework.h */,
-				05DDA5AA2B38557F0052B730 /* SignUpView.swift */,
+				05DDA5F92B3C8DDA0052B730 /* Shared.h */,
+				05DDA6002B3C8DEB0052B730 /* SampleCode.swift */,
 			);
-			path = AFramework;
-			sourceTree = "<group>";
-		};
-		05DDA6092B3C8E970052B730 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				05DDA60A2B3C8E970052B730 /* Shared.framework */,
-			);
-			name = Frameworks;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05DDA59B2B3855290052B730 /* Headers */ = {
+		05DDA5F12B3C8DDA0052B730 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DDA5A42B3855290052B730 /* AFramework.h in Headers */,
+				05DDA5FA2B3C8DDA0052B730 /* Shared.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		05DDA59F2B3855290052B730 /* AFramework */ = {
+		05DDA5F52B3C8DDA0052B730 /* Shared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05DDA5A72B3855290052B730 /* Build configuration list for PBXNativeTarget "AFramework" */;
+			buildConfigurationList = 05DDA5FD2B3C8DDA0052B730 /* Build configuration list for PBXNativeTarget "Shared" */;
 			buildPhases = (
-				05DDA59B2B3855290052B730 /* Headers */,
-				05DDA59C2B3855290052B730 /* Sources */,
-				05DDA59D2B3855290052B730 /* Frameworks */,
-				05DDA59E2B3855290052B730 /* Resources */,
-				05DDA6152B3C8FE10052B730 /* Embed Frameworks */,
+				05DDA5F12B3C8DDA0052B730 /* Headers */,
+				05DDA5F22B3C8DDA0052B730 /* Sources */,
+				05DDA5F32B3C8DDA0052B730 /* Frameworks */,
+				05DDA5F42B3C8DDA0052B730 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AFramework;
-			productName = AFramework;
-			productReference = 05DDA5A02B3855290052B730 /* AFramework.framework */;
+			name = Shared;
+			productName = Shared;
+			productReference = 05DDA5F62B3C8DDA0052B730 /* Shared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		05DDA5972B3855280052B730 /* Project object */ = {
+		05DDA5ED2B3C8DDA0052B730 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					05DDA59F2B3855290052B730 = {
+					05DDA5F52B3C8DDA0052B730 = {
 						CreatedOnToolsVersion = 14.3.1;
 						LastSwiftMigration = 1430;
 					};
 				};
 			};
-			buildConfigurationList = 05DDA59A2B3855280052B730 /* Build configuration list for PBXProject "AFramework" */;
+			buildConfigurationList = 05DDA5F02B3C8DDA0052B730 /* Build configuration list for PBXProject "Shared" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,18 +108,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 05DDA5962B3855280052B730;
-			productRefGroup = 05DDA5A12B3855290052B730 /* Products */;
+			mainGroup = 05DDA5EC2B3C8DDA0052B730;
+			productRefGroup = 05DDA5F72B3C8DDA0052B730 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05DDA59F2B3855290052B730 /* AFramework */,
+				05DDA5F52B3C8DDA0052B730 /* Shared */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05DDA59E2B3855290052B730 /* Resources */ = {
+		05DDA5F42B3C8DDA0052B730 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,18 +129,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05DDA59C2B3855290052B730 /* Sources */ = {
+		05DDA5F22B3C8DDA0052B730 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DDA5AB2B38557F0052B730 /* SignUpView.swift in Sources */,
+				05DDA6012B3C8DEB0052B730 /* SampleCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		05DDA5A52B3855290052B730 /* Debug */ = {
+		05DDA5FB2B3C8DDA0052B730 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +203,7 @@
 			};
 			name = Debug;
 		};
-		05DDA5A62B3855290052B730 /* Release */ = {
+		05DDA5FC2B3C8DDA0052B730 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +260,7 @@
 			};
 			name = Release;
 		};
-		05DDA5A82B3855290052B730 /* Debug */ = {
+		05DDA5FE2B3C8DDA0052B730 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -308,11 +280,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.playhong16.AFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playhong16.Shared;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -322,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		05DDA5A92B3855290052B730 /* Release */ = {
+		05DDA5FF2B3C8DDA0052B730 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -342,11 +314,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.playhong16.AFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.playhong16.Shared;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -358,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05DDA59A2B3855280052B730 /* Build configuration list for PBXProject "AFramework" */ = {
+		05DDA5F02B3C8DDA0052B730 /* Build configuration list for PBXProject "Shared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05DDA5A52B3855290052B730 /* Debug */,
-				05DDA5A62B3855290052B730 /* Release */,
+				05DDA5FB2B3C8DDA0052B730 /* Debug */,
+				05DDA5FC2B3C8DDA0052B730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05DDA5A72B3855290052B730 /* Build configuration list for PBXNativeTarget "AFramework" */ = {
+		05DDA5FD2B3C8DDA0052B730 /* Build configuration list for PBXNativeTarget "Shared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05DDA5A82B3855290052B730 /* Debug */,
-				05DDA5A92B3855290052B730 /* Release */,
+				05DDA5FE2B3C8DDA0052B730 /* Debug */,
+				05DDA5FF2B3C8DDA0052B730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 05DDA5972B3855280052B730 /* Project object */;
+	rootObject = 05DDA5ED2B3C8DDA0052B730 /* Project object */;
 }

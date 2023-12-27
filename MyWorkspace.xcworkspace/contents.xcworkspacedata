@@ -10,4 +10,7 @@
    <FileRef
       location = "group:BFramework/BFramework.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:MyApp/../Shared/Shared.xcodeproj">
+   </FileRef>
 </Workspace>

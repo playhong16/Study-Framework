@@ -7,6 +7,8 @@
 
 import UIKit
 
+import Shared
+
 public class SignUpView: UIView {
     
     let titleLabel: UILabel = {
@@ -29,6 +31,7 @@ public class SignUpView: UIView {
         self.addSubview(titleLabel)
         self.addSubview(signupButton)
         setConstraints()
+        SampleCode.test()
     }
     
     required init?(coder: NSCoder) {

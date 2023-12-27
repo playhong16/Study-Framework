@@ -7,6 +7,8 @@
 
 import UIKit
 
+import Shared
+
 public class HomeViewController: UIViewController {
     
     let homeView = HomeView()
@@ -21,6 +23,7 @@ public class HomeViewController: UIViewController {
             homeView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
             homeView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
         ])
+        SampleCode.test()
     }
     
 
